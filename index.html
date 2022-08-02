@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <!-- Css file link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- fontawesome link for getting the icon in the project -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- main Container -->
+    <div class="container">
+      <!-- Form used for entering the task -->
+      <form>
+        <input
+          type="text"
+          placeholder="Enter Your Task"
+          name="task"
+          id="task"
+        />
+        <!-- button used for addtask -->
+        <button id="btn" type="submit">addTask</button>
+      </form>
+      <!-- Table used for displaying the task -->
+      <table id="app"></table>
+    </div>
+    <!-- script file link -->
+    <script src="script.js"></script>
+  </body>
+</html>

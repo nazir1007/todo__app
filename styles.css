@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+/* body CSS */
+body {
+  background: rgb(88, 40, 4);
+  color: #fff;
+  margin: 30px;
+  padding: 30px;
+}
+
+/* container CSS */
+.container {
+  border: 2px;
+  margin: auto;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* input and addTask CSS */
+input,
+button {
+  border: 2px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: 14px;
+  padding: 8px 10px;
+  margin: -2px;
+}
+
+input[type="text"] {
+  width: 300px;
+}
+/* addTask button css */
+#btn {
+  cursor: pointer;
+  border-left: 0;
+  border-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#btn:hover {
+  border: 2px solid black;
+  background-color: yellowgreen;
+  color: white;
+}
+/*  CSS for table  */
+#app {
+  padding: 10px;
+  margin: 5px;
+  width: 370px;
+  max-height: 500px;
+  border: 5px solid;
+  border-radius: 5px;
+  background-color: ghostwhite;
+}
